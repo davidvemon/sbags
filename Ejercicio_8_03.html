@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS transitions performance</title>
+    <style>
+      /* Let's put our style in here */
+      .transition-me {
+        height: 100px;
+        background: lightskyblue;
+        border: 10px solid wheat;
+        transition-property: border-color;
+        transition-duration: 0.5s;
+        cursor: pointer;
+      }
+      .transition-me:hover {
+        background: orange;
+        font-size: 32px;
+        border-color: teal;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="transition-me">
+      CSS transitions performance
+    </div>
+  </body>
+</html>
